@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:gravity="right"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!--  coin name  -->
+    <TextView
+        android:id="@+id/itemNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <!--  coin icon  -->
+    <ImageView
+        android:id="@+id/itemIconImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_marginStart="16dp"
+        android:cropToPadding="false" />
+
+</LinearLayout>
